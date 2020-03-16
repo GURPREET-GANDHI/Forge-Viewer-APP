@@ -1,0 +1,62 @@
+{
+  "_from": "cordova-plugin-httpd-cors@^0.9.9",
+  "_id": "cordova-plugin-httpd-cors@0.9.9",
+  "_inBundle": false,
+  "_integrity": "sha512-eDa9YmlGXe7M9JCVrDBFPy4O780cADeIuZ4jNrhAfxyYTsHnlss6tdLIxBRuMLSYm8Lc5AJwZ1bmP0X3Qb6JUw==",
+  "_location": "/cordova-plugin-httpd-cors",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "cordova-plugin-httpd-cors@^0.9.9",
+    "name": "cordova-plugin-httpd-cors",
+    "escapedName": "cordova-plugin-httpd-cors",
+    "rawSpec": "^0.9.9",
+    "saveSpec": null,
+    "fetchSpec": "^0.9.9"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-httpd-cors/-/cordova-plugin-httpd-cors-0.9.9.tgz",
+  "_shasum": "7f06dc6320904808eba622d20c66cd833a993fd9",
+  "_spec": "cordova-plugin-httpd-cors@^0.9.9",
+  "_where": "D:\\CodeBase\\HK\\EMSD\\forge-viewer-test",
+  "author": {
+    "name": "Liming Xie"
+  },
+  "bugs": {
+    "url": "https://github.com/floatinghotpot/cordova-httpd/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "com.rjfun.cordova.httpd",
+    "platforms": [
+      "ios",
+      "android",
+      "osx"
+    ]
+  },
+  "deprecated": false,
+  "description": "Embeded httpd for cordova.",
+  "devDependencies": {},
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    }
+  ],
+  "homepage": "https://github.com/floatinghotpot/cordova-httpd#readme",
+  "keywords": [
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "cordova-osx"
+  ],
+  "license": "MIT",
+  "name": "cordova-plugin-httpd-cors",
+  "scripts": {},
+  "version": "0.9.9"
+}

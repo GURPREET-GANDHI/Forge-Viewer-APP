@@ -1,0 +1,323 @@
+.adsk-viewing-viewer .mobile-joystick.visible {
+    display: block;
+}
+
+.adsk-viewing-viewer .mobile-joystick {
+    display: none;
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    z-index: 10;
+}
+
+.adsk-viewing-viewer .mobile-joystick-handle.focus {
+    background: rgba(255,255,255,1);
+}
+
+.adsk-viewing-viewer .mobile-joystick-handle.transition {
+    transition: 0.2s;
+}
+
+.adsk-viewing-viewer .mobile-joystick-handle {
+    border-radius: 100%;
+    display: inherit;
+    position: fixed;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: -3px 3px 6px 0px rgba(0, 0, 0, 0.15);
+}
+
+.adsk-viewing-viewer .mobile-joystick-back-circle.focus {
+    
+}
+
+.adsk-viewing-viewer .mobile-joystick-back-circle {
+    pointer-events: none;
+    display: inherit;
+    border-radius: 100%;
+    background: rgba(95, 95, 95, 0.3);
+    border-color: rgba(255, 255, 255, 0.85);
+    border-width: 2px;
+    border-style: solid;
+    left: -3px;
+    top: -3px;
+}
+
+.adsk-viewing-viewer .mobile-joystick-arrow {
+    position: fixed;
+    opacity: 0.3;
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/PjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDQ5MS44NTggNDkxLjg1OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNDkxLjg1OCA0OTEuODU4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij48Zz48Zz48cGF0aCBkPSJNNDkxLjg1OCw0NDIuNDYxYzAsMTMuOTMxLTExLjI5MywyNS4yMjQtMjUuMjI0LDI1LjIyNEwyNDUuOTMsMzczLjA5N0wyNS4yMjQsNDY3LjY4NiAgICBDMTEuMjkyLDQ2Ny42ODYsMCw0NTYuMzkyLDAsNDQyLjQ2MUwyMjcuMDExLDMyLjU4YzAsMCwxOC45MTgtMTguOTE4LDM3LjgzNCwwQzI4My43NjQsNTEuNDk5LDQ5MS44NTgsNDQyLjQ2MSw0OTEuODU4LDQ0Mi40NjF6IiBmaWxsPSIjRkZGRkZGIi8+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48Zz48L2c+PGc+PC9nPjxnPjwvZz48L3N2Zz4=);
+    background-size: contain;
+}
+
+.adsk-viewing-viewer .mobile-joystick-arrow.arrow-up {
+    /*left: 63px;
+    top: 5px;*/
+}
+
+.adsk-viewing-viewer .mobile-joystick-arrow.arrow-right {
+    left: 120px;
+    top: 63px;
+    transform: rotate(90deg);
+}
+
+.adsk-viewing-viewer .mobile-joystick-arrow.arrow-down {
+    left: 63px;
+    top: 120px;
+    transform: rotate(180deg);
+}
+
+.adsk-viewing-viewer .mobile-joystick-arrow.arrow-left {
+    left: 5px;
+    top: 63px;
+    transform: rotate(270deg);
+}
+.adsk-viewing-viewer .bimwalk .speed {
+    min-width: 0;
+    min-height: 0;
+    display: block;
+    position: absolute;
+    left: calc(50% - 83px);
+    top: 30px;
+    width: 160px;
+    height: 34px;
+    opacity: 0;
+    transform: translate(0, 10px);
+    pointer-events: none;
+    webkit-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    -ms-transition: opacity 0.5 ease-in-out, transform 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.adsk-viewing-viewer .bimwalk .speed-text {
+    padding-top: 8px;
+}
+
+.adsk-viewing-viewer .bimwalk .speed.open {
+    opacity: 1.0;
+    pointer-events: all;
+    transform: translate(0, 0);
+}
+
+.adsk-viewing-viewer .bimwalk .tooltip-info {
+    display: block;
+    position: absolute;
+    right: 12px;
+    cursor: pointer;
+    top: 10px;
+    opacity: 0;
+    width: 30px;
+    height: 30px;
+    background-color: rgba(34, 34, 34, 0.4);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: opacity 0.2s ease;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.adsk-viewing-viewer .bimwalk .info-icon {
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 2.5px 2.5px 2.5px 2.5px;
+    background: url(res/icon-information.svg);
+    background-size: contain;
+}
+
+.adsk-viewing-viewer .bimwalk .tooltip-info.open {
+    opacity: 0.7;
+    pointer-events: all;
+}
+
+.adsk-viewing-viewer .bimwalk .tooltip-info:hover {
+    opacity: 1.0;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    pointer-events: none;
+    overflow: auto;
+    z-index: 6;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip--open {
+    opacity: 1.0;
+    pointer-events: all;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip * {
+    box-sizing: border-box !important;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 620px;
+    height: 520px;
+    transform: translate(-50%, -50%);
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__title {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-bottom: 20px;
+    line-height: 19px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__close {
+    position: absolute;
+    top:5px;
+    right: -30px;
+    cursor: pointer;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__row {
+    clear: left;
+    height: 135px;
+    margin-bottom: 5px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip {
+    border-radius: 5px;
+    padding: 28px 0;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    font-size: 0;
+    height: 135px;
+    display: block;
+    float: left;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip + .c-bimwalk-tooltip__tip {
+    margin-left: 5px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__subtitle {
+    position: absolute;
+    left: 14px;
+    top: 12px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__instruction {
+    position: absolute;
+    left: 14px;
+    bottom: 12px;
+    font-size: 12px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--walk {
+    padding: 26px 14px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--walk svg {
+    height: 79px;
+    display: inline-block;
+    margin: 0 26px;
+}
+
+.adsk-viewing-viewer .bimwalk .bimwalk-tooltip-or {
+    font-size: 12px;
+    font-weight: bold;
+    position: absolute;
+    bottom: 27px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--updown {
+    padding: 53px 0 45px;
+    width: 307px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--updown svg {
+    height: 37px;
+    display: block;
+    margin: 0 auto;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--run {
+    padding: 53px 0 45px;
+    width: 308px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__shift {
+    height: 37px;
+    display: inline-block;
+    margin: 0;
+    vertical-align: middle;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__plus {
+    width: 11px;
+    display: inline-block;
+    margin: 0 16px 0 19px;
+    vertical-align: middle;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__direction {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    position: relative;
+    top: 4px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--teleport {
+    width: 203px;
+    padding: 45px 0 44px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--teleport svg {
+    height: 46px;
+    display: block;
+    margin: 0 auto;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--look {
+    width: 204px;
+    padding: 37px 0;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--look svg {
+    height: 61px;
+    display: block;
+    margin: 0 auto;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--speed {
+    width: 203px;
+    padding: 55px 0 45px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__tip--speed svg {
+    height: 36px;
+    display: block;
+    margin: 0 auto;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__actions {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__action {
+    display: inline-block;
+    width: 240px;
+}
+
+.adsk-viewing-viewer .bimwalk .c-bimwalk-tooltip__action + .c-bimwalk-tooltip__action {
+    margin-left: 1px;
+}

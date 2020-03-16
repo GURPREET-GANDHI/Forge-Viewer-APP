@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+    <h1>Forge Test</h1>
+    <div>
+        <button type="button" (click)="togglePublicModel()">TOGGLE 3d model</button>
+        <span> | </span>
+        <button type="button" (click)="toggleLocalModel()">TOGGLE 2d model</button>
+        <span> | </span>
+    </div>
+    <div style="margin: 15px 0; ">{{message}}</div>
+</div>
+<div class="viewer-container">
+    <app-viewer *ngIf="isActive" style="text-align: initial" [models]='bimModels'></app-viewer>
+</div>

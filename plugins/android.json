@@ -1,0 +1,61 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "26.0.0",
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-ios-plugin-no-export-compliance": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-app-version": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-file-transfer": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-httpd-cors": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-network-information": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-themeablebrowser": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.planon.tms.bim"
+    }
+  },
+  "dependent_plugins": {}
+}

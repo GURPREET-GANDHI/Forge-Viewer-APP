@@ -1,0 +1,87 @@
+{
+  "_from": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+  "_id": "cordova-plugin-inappbrowser@3.0.1-dev",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/cordova-plugin-inappbrowser",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+    "rawSpec": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+    "saveSpec": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+    "fetchSpec": "https://github.com/apache/cordova-plugin-inappbrowser.git",
+    "gitCommittish": "9cc7f69625363de9872f9dbc028b739f195a4f93"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+  "_spec": "git+https://github.com/apache/cordova-plugin-inappbrowser.git#9cc7f69625363de9872f9dbc028b739f195a4f93",
+  "_where": "D:\\CodeBase\\HK\\EMSD\\forge-viewer-test",
+  "author": {
+    "name": "Apache Software Foundation"
+  },
+  "bugs": {
+    "url": "https://issues.apache.org/jira/browse/CB"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-inappbrowser",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova InAppBrowser Plugin",
+  "devDependencies": {
+    "eslint": "^4.0.0",
+    "eslint-config-semistandard": "^11.0.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-node": "^5.0.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "0.2.3": {
+        "cordova": ">=3.1.0"
+      },
+      "4.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/apache/cordova-plugin-inappbrowser#readme",
+  "keywords": [
+    "cordova",
+    "in",
+    "app",
+    "browser",
+    "inappbrowser",
+    "ecosystem:cordova",
+    "cordova-android",
+    "cordova-browser",
+    "cordova-ios",
+    "cordova-osx",
+    "cordova-windows"
+  ],
+  "license": "Apache-2.0",
+  "name": "cordova-plugin-inappbrowser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apache/cordova-plugin-inappbrowser.git"
+  },
+  "scripts": {
+    "eslint": "node node_modules/eslint/bin/eslint www && node node_modules/eslint/bin/eslint src && node node_modules/eslint/bin/eslint tests",
+    "test": "npm run eslint"
+  },
+  "types": "./types/index.d.ts",
+  "version": "3.0.1-dev"
+}
